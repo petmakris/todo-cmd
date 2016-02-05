@@ -1,6 +1,10 @@
 # todo-cmd
 A command line utility that provides a simple todo task manager for the Linux/Macosx command line
 
+## Usage
+
+![alt usage](https://raw.githubusercontent.com/petmakris/todo-cmd/master/usage.png)
+
 ## Install
 
 ```
