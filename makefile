@@ -26,11 +26,9 @@ clean:
 
 install: 
 	install -m 0755 todo todo-getsize /usr/local/bin
-	install -m 0644 bashrc ~/.console-todo.config
 	
 uninstall:
 	rm -f /usr/local/bin/todo /usr/local/bin/todo-getsize
-	rm -f ~/console-todo.config
 
 .PHONY: depend clean install uninstall
 
