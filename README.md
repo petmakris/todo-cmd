@@ -1,5 +1,6 @@
 # todo-cmd
-A command line utility that provides a simple todo task manager for the Linux/Macosx command line
+A command line utility that provides a simple todo task manager for the Linux/Macosx command line.
+Old enough, recently found in a nasty backup (10+ years old - 2016)
 
 ## Usage
 
@@ -17,7 +18,7 @@ make && make install
 make uninstall
 ```
 
-Append the following in your `bash_profile` (or `.bashrc`) files:
+Append the following in your `bash_profile` (or `.bashrc`) file:
 
 ```bash
 C1="\[\033[29;13;1m\]"
