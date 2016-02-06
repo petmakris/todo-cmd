@@ -4,7 +4,7 @@ Old enough, recently found in a nasty backup (10+ years old - 2016)
 
 ## Installation
 
-![alt usage](https://raw.githubusercontent.com/petmakris/todo-cmd/master/installtion.png)
+![alt usage](https://raw.githubusercontent.com/petmakris/todo-cmd/master/installation.png)
 
 ## Usage
 
