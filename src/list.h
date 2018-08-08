@@ -3,30 +3,29 @@
 
 #include <stdbool.h>
 
-typedef struct node_t
-{
+typedef struct node_t {
 	void *data;
 	int type;
 	int size;
 	struct node_t *r;
 	struct node_t *l;
-} ctList;
+} List;
 
-ctList* NewNode(int size);
+List* newNode(int size);
 
-typedef void (*ListFuncType)(ctList*);
+typedef void (*ListFuncType)(List*);
 
-ctList * NewNode(int size);
-ctList* DeleteNode(ctList **head, ctList* item);
-void DeleteByOrder(ctList **head, int key);
-void PushFirst(ctList **head, ctList *item);
-void PushLast(ctList **head, ctList *item);
-ctList* PopFirst(ctList **head);
-ctList* PopLast(ctList **head);
-int Length(ctList *head);
-ctList* GetNodeByOrder(ctList *head, int order);
-void PrintList(ctList *p, ListFuncType pf);
-bool ListValidOrder(ctList* head, int order);
-void ClearList(ctList **p);
+List * newNode(int size);
+List* deleteNode(List **head, List* item);
+void deleteByOrder(List **head, int key);
+void pushFirst(List **head, List *item);
+void pushLast(List **head, List *item);
+List* popFirst(List **head);
+List* popLast(List **head);
+int length(List *head);
+List* getNodeByOrder(List *head, int order);
+void printList(List *p, ListFuncType pf);
+bool listValidOrder(List* head, int order);
+void clearList(List **p);
 
 #endif

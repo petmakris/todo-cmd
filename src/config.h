@@ -7,7 +7,7 @@
 typedef struct
 {
 	char  msg[STR_MAX];
-} db_todo;
+} Todo;
 
 #endif
 

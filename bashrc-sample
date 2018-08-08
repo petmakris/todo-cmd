@@ -1,7 +1,1 @@
-# console-todo program setups PS1
-
-C1="\[\033[29;13;1m\]"
-EC="\[\033[0m\]"
-C2="\[\033[49;31;1m\]"
-
-PS1="[$C1\`todo-getsize\`$EC] $C2\W $EC> "
+PS1="\`todos-size\` > "
